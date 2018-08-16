@@ -1,0 +1,43 @@
+'''
+Created on 2018年8月14日
+
+@author: yangyi
+'''
+#coding=utf-8
+Url_config=['https://s.1688.com/selloffer/rpc_async_render.jsonp?templateConfigName=marketOfferresult&startIndex=0&keywords=%B4%B4%BA%E3&enableAsync=true&qrwRedirectEnabled=false&asyncCount=20&pageSize=60&n=y&_pageName_=market&offset=9&rpcflag=new&async=true&uniqfield=pic_tag_id&leftP4PIds=564986002770,528059016656,45052975754,561151628728,548564515105,552392377011,546581623647,521473444682&filterP4pIds=564986002770,528059016656,45052975754,561151628728,548564515105,552392377011,546581623647,521473444682&callback=jQuery17206562454290307742_1534217609177&beginPage={count}',
+     'https://s.1688.com/selloffer/rpc_async_render.jsonp?keywords=%B4%B4%BA%E3&qrwRedirectEnabled=false&n=y&uniqfield=pic_tag_id&leftP4PIds=564986002770%2C528059016656%2C45052975754%2C561151628728%2C548564515105%2C552392377011%2C546581623647%2C521473444682&filterP4pIds=564986002770%2C528059016656%2C45052975754%2C561151628728%2C548564515105%2C552392377011%2C546581623647%2C521473444682&beginPage={count}&templateConfigName=marketOfferresult&offset=9&pageSize=60&asyncCount=20&startIndex=20&async=true&enableAsync=true&rpcflag=new&_pageName_=market&callback=jQuery17206562454290307742_1534217609184',
+     'https://s.1688.com/selloffer/rpc_async_render.jsonp?keywords=%B4%B4%BA%E3&qrwRedirectEnabled=false&n=y&uniqfield=pic_tag_id&leftP4PIds=564986002770%2C528059016656%2C45052975754%2C561151628728%2C548564515105%2C552392377011%2C546581623647%2C521473444682&filterP4pIds=564986002770%2C528059016656%2C45052975754%2C561151628728%2C548564515105%2C552392377011%2C546581623647%2C521473444682&beginPage={count}&templateConfigName=marketOfferresult&offset=9&pageSize=60&asyncCount=20&startIndex=40&async=true&enableAsync=true&rpcflag=new&_pageName_=market&callback=jQuery17206562454290307742_1534217609188']
+dic={
+  'id':'',
+  'domainId':'',
+  'Link_id':'',
+  'Link_name':'',
+  'Link_url':'',
+  'Bid':'',
+  'Status':'',
+  'Area':'',
+  'Title':'',
+  'url':'',
+  'Img':'',
+  'wangwang':'',
+  'seller':'',
+  'Price':'',
+  'Pricelist':'',
+  'Sales':'',
+  'Model':'',
+  'brand':'',
+  'required_id':'',
+  'platform':'',
+  'batch':'',
+  'itemid':'',
+  'maxprice':'',
+  'minprice':'',
+  'avgprice':'',
+  'createtime':'',
+  'updatetime':'',
+  'clean_status':'',
+  'clean_code':'',
+  'clean_role':'',
+  'shopurl':'',
+  'shopid':''
+ }
