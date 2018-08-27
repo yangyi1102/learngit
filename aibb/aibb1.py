@@ -35,6 +35,7 @@ class alibb(object):
             litext=[]
             for i in Url_config:
                 url=i.format(count=count)
+                print(url)
                 response=requests.get(url,headers=self.header)
                 html=re.findall(r'<a tclick.*/a>',response.text)[0]
                 text = html.replace('\\\"','').replace('\\n','').replace('\\','')
@@ -112,7 +113,7 @@ class alibb(object):
 def Run():
     count=1
 #     for i in range(2):
-    #a.Get_Url_list()
+   # a.Get_Url_list()
     #print(q.qsize())
     a.Get_Goods_inf() 
 if __name__ == '__main__':
